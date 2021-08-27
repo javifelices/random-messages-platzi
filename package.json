@@ -1,0 +1,30 @@
+{
+    "name": "jf-random-messages",
+    "version": "1.0.0",
+    "description": "Mensajess de tipo random",
+    "main": "src/index.js",
+    "bin": {
+        "random-msg": "./bin/global.js"
+    },
+    "preferGlobal": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/javifelices/random-messages-platzi.git"
+    },
+    "keywords": [
+        "javascript",
+        "node",
+        "npm",
+        "random",
+        "messages"
+    ],
+    "author": "Javi Felices @javifelices <javifelices@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/javifelices/random-messages-platzi/issues"
+    },
+    "homepage": "https://github.com/javifelices/random-messages-platzi#readme"
+}
