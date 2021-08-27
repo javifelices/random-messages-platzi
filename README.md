@@ -1,32 +1,21 @@
-# Crear paquete NPM para mensajes random ([Curso de Gestión de Dependencias y Paquetes con NPM](https://platzi.com/clases/npm/))
+# jf-random-messages
 
+To obtain random names in an easy and simple way for the whole family.
 
-## Varios
+## Install
 
-- [Packages and modules](https://docs.npmjs.com/packages-and-modules)
-
-- [npm-link](https://docs.npmjs.com/cli/v6/commands/npm-link)
-
-
-
+```npm
+npm install -g jf-random-messages
 ```
-npm link
-```
-Instala nuestro código como si lo hiciéramos desde npm para verificar si tiene algún error.
 
-```
-npm adduser
-```
-Agregar usuario de npm.
+# Usage
 
+```bash
+random-msg
 ```
-npm login
-```
-Iniciar sesión
 
-```
-npm publish
-```
-Publica el paquete en NPM. Hay que estar ubicado en la raiz del proyecto para que pueda leer la configuración del package.json, y establecer estos elementos a nuestros manejador de paquetes (npm).
+# Contributing
+If someone wants to add or improve something, I invite you to collaborate directly in this repository: [jf-random-messages](https://www.npmjs.com/package/jf-random-messages)
 
-Debemos de poner un nombre original (lo cambiamos en name del fichero package.json), ya que no se puede publicar dos o mas paquetes con el mismo nombre, además de tener nuestra cuenta verifica con nuestro correo para que no de error.
+# License
+random-msg is released under the [MIT License](https://opensource.org/licenses/MIT).

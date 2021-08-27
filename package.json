@@ -1,7 +1,7 @@
 {
     "name": "jf-random-messages",
     "version": "1.0.0",
-    "description": "Mensajess de tipo random",
+    "description": "To obtain random names in an easy and simple way for the whole family.",
     "main": "src/index.js",
     "bin": {
         "random-msg": "./bin/global.js"
